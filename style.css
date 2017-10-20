@@ -1,0 +1,45 @@
+h1 {
+	font-family: 
+}
+
+hr {
+	margin-left: 0px;
+	width: 130px;
+	height: 5px;
+	color: black;
+	background: black;
+	margin-top: -10px;
+}
+
+div.coder{
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	margin-bottom: 50px;
+	float: left;
+
+
+}
+
+div.coder img{
+	width: 100%;
+	height: auto; /* si la imagen es más grande que el alto de la venta, se ajusta*/
+	position: relative;
+	opacity: 0.7;
+}
+
+div.coder img:hover{
+	opacity: 1;
+}
+
+div.coder p{
+	position: relative;
+	bottom: 50px;
+	color: white;
+	text-align: right;
+	font-family: arial;
+	margin right: 10px;
+	padding-right: 10px;
+	line-height: 10px;
+	text-shadow: 3px 2px 2px black;
+}
