@@ -1,14 +1,22 @@
+
+body{
+	background-color: #FEF7E3;
+}
 h1 {
-	font-family: 
+	font-family: 'Arvo', serif;
+	color: #F8BA00;
+	text-shadow: 2px 2px #FCE492;
 }
 
 hr {
 	margin-left: 0px;
-	width: 130px;
+	width: 170px;
 	height: 5px;
-	color: black;
-	background: black;
-	margin-top: -10px;
+	color: #F8BA00;
+	background: #F8BA00;
+	margin-top: 20px;
+	box-shadow: 2px 2px #FCE492;
+	border-radius: 30%;
 }
 
 div.coder{
@@ -16,16 +24,15 @@ div.coder{
 	height: 300px;
 	margin-left: 20px;
 	margin-bottom: 50px;
-	float: left;
-
-
+	display: inline-block;
+	
 }
 
 div.coder img{
 	width: 100%;
 	height: auto; /* si la imagen es más grande que el alto de la venta, se ajusta*/
 	position: relative;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 div.coder img:hover{
@@ -43,3 +50,5 @@ div.coder p{
 	line-height: 10px;
 	text-shadow: 3px 2px 2px black;
 }
+
+/*No supe hacer que todas las imágenes quedaran del mismo tamaño*/
